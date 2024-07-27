@@ -113,7 +113,7 @@ declare(strict_types=1);
 // }while($i<10);
 
 
-//break
+//break---------------------------------------------
 // for($i=0;$i<16;$i++){
 //     if($i==10){
 //         break;
@@ -123,10 +123,12 @@ declare(strict_types=1);
 
 
 
-//Continue
+// Continue-----------------------------------------
 for($i=0;$i<16;$i++){
     if($i%2==0){
        continue;
     }
     echo "<button>$i</button>";
 }
+
+
